@@ -22,11 +22,10 @@ CalendarView cv;
         tv = findViewById(R.id.textview);
         cv=findViewById(R.id.calendarView);
 
-        // Récupérer le CalendarView depuis le layout
-        CalendarView calendarView = findViewById(R.id.calendarView);
+
 
 // Définir un listener pour le changement de date
-        calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+        cv.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
                 // Créer un objet Calendar pour la date sélectionnée
