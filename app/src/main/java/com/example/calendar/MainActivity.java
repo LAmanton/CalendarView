@@ -20,7 +20,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 TextView tv;
-TextView t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
